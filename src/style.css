@@ -1,0 +1,178 @@
+.headerRow{
+    background: #ffffff;
+    border-bottom: 1px solid #ccc;
+}
+
+.headerRow .landDetails{
+    margin: 1rem auto;
+}
+
+.headerRow .landDetails .landDescr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.headerRow .landDetails .landDescr .descTitle {
+    font-size: 2.5rem;
+    font-family: "Gotham Bold";
+    color: #f7af4f;
+}
+
+.headerRow .landDetails .landDescr .descContentSmall{
+    font-size: 1.2em;
+    padding-bottom: 0.5rem;
+    color: #f7af4f;
+}
+
+
+.headerRow .landDetails .landDescr .descBtn{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.headerRow .landDetails .landPic img{
+    width: 100%;
+}
+
+.headerRow .ems-logo{
+    height: 4rem;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+}
+.headerRow .ems-logo img{
+    width: 100%;
+}
+
+.headerRow .headerRowDiv{
+    height: 4rem;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.headerRow .headerRowDiv span a{
+    padding: 0 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2a4466;
+}
+
+.planTitle{
+    font-size: 1.8rem;
+    font-family: "Gotham Medium";
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.landTable{
+    padding: 1.5rem 0;
+}
+.landTable .pagination-bottom {
+    display: none;
+}
+
+.landTable .serviceColor{
+    color: #2a4466 !important;
+}
+
+.landTable .rt-tr.-even {
+    background: transparent !important;
+}
+.landTable .rt-tr.-even .rt-td {
+    background:#ffffff;
+    color:#f7af4f;
+    padding: 1rem 0;
+}
+
+.landTable .rt-tr.-odd {
+    background: transparent !important;
+}
+.landTable .rt-tr.-odd .rt-td {
+    background:#EDF0F5;
+    color:#f7af4f;
+    padding: 1rem 0;
+}
+
+.landTable .rt-td {
+    margin: 0 0.2rem;
+    border: 1px solid #ffffff !important;
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    position: unset !important;
+}
+
+.landTable .ReactTable .rt-tbody .rt-tr-group {
+    border-bottom: solid 0px transparent;
+}
+
+.landTable .ReactTable{
+    border: 0px solid transparent;
+}
+
+.landTable .ReactTable .rt-tr-group:hover {
+    font-family: inherit;
+    cursor: inherit;
+}
+
+.landTable .ReactTable .rt-thead.-header {
+    background: #EDF0F5;
+    color: #f7af4f;
+    padding: 0rem;
+    border: 0px solid transparent !important;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.15) !important;
+    text-align: center !important;
+}
+
+.landTable .ReactTable .rt-thead.-header .rt-th.rt-resizable-header.-cursor-pointer {
+    margin: 0 0.2rem;
+    border: 1px solid  #ffffff;
+    padding:1rem 0.5rem;
+    border-bottom: 2px solid #f7af4f;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+}
+.landTable .ReactTable .rt-thead.-header .rt-th {
+    text-align: center;
+}
+
+
+.happyClient{
+    background: #ffffff;
+    padding: 1rem !important;
+}
+.happyClient .happyTitle{
+    font-size: 1.8rem;
+    font-family: "Gotham Medium";
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.bottomLand{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.bottomLand a{
+    color: #f7af4f;
+}
+
+.menu-item {
+    padding: 0 40px;
+    margin: 5px 10px;
+    user-select: none;
+    cursor: pointer;
+    border: none;
+}
+.menu-item img {
+    height: 1rem;
+}
+.menu-item-wrapper.active {
+    border: 1px #0C7995 solid;
+}
+
+.scroll-menu-arrow {
+    padding: 20px;
+    cursor: pointer;
+    font-size: 2rem;
+}

@@ -1,0 +1,1 @@
+export const CLOUDINARY_URL = 'https://res.cloudinary.com/hehe/image/upload/v1535021246/Iposita';
