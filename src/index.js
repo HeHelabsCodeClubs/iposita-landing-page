@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { CLOUDINARY_URL } from './config';
 import ScrollMenu from 'react-horizontal-scrolling-menu';
-import Jumbo from './Jumbo';
 import './style.css';
 
 const list = [
@@ -18,7 +17,7 @@ const list = [
 const MenuItem = ({ text, selected }) => {
     return (
         <div>
-            <Jumbo image={text} addc='menu-item' />
+            <img src={text} className='menu-item' />
             {/* <Jumbo image={text} addc='menu-item' /> */}
         </div>
     );
@@ -91,7 +90,7 @@ class IpositaLanding extends Component {
                                 <div className="descBtn">{this.renderGetStartedButton(loggedIn)}</div>
                             </div>
                             <div className="col-md-7 col-sm-12">
-                                <Jumbo image={`${CLOUDINARY_URL}/Landing_artwork.svg`} addc='landPic' />
+                                <img src={`${CLOUDINARY_URL}/Landing_artwork.svg`} className='landPic' />
                             </div>
                         </div>
                     </div>
