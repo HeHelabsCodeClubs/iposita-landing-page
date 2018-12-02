@@ -52,13 +52,8 @@ class IpositaLanding extends Component {
     }
     renderGetStartedButton(loggedIn) {
         if (!loggedIn) {
-            return (
-                <span>
-                    <a to="/signup">
-                        <button className="authBtn">Get Started</button>
-                    </a>
-                </span>
-            );
+            const { getStartedButton } = this.props;
+            return getStartedButton();
         }
 
         return <span />;
