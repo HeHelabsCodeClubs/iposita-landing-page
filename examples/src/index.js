@@ -15,6 +15,7 @@ const App = () => (
     <IpositaLanding
     loggedIn={false}
     tableData={<tableData />}
+    getStartedButton={() => null}
     >
         <header />
     </IpositaLanding>

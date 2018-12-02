@@ -1,6 +1,6 @@
 {
   "name": "iposita-landing-page",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "\"a component to render iposita platform landing page\"",
   "main": "dist/index.js",
   "scripts": {
